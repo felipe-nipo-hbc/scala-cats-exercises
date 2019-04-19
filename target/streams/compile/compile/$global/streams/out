@@ -1,15 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/felipenipo/Projects/scala-cats-exercises/src/main/scala/printablelibrary/Cat.scala:7:9: object creation impossible, since method format in trait Printable of type [B >: printablelibrary.Cat](value: B)String is not defined[0m
-[0m[[0m[31merror[0m] [0m[0m    new Printable[Cat] {[0m
-[0m[[0m[31merror[0m] [0m[0m        ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/felipenipo/Projects/scala-cats-exercises/src/main/scala/printablelibrary/Cat.scala:8:20: method format overrides nothing.[0m
-[0m[[0m[31merror[0m] [0m[0mNote: the super classes of <$anon: printablelibrary.Printable[printablelibrary.Cat]> contain the following, non final members named format:[0m
-[0m[[0m[31merror[0m] [0m[0mdef format[B >: printablelibrary.Cat](value: B): String[0m
-[0m[[0m[31merror[0m] [0m[0m      override def format(value: Cat): String = s"${value.name} is a ${value.age} year-old ${value.color} cat."[0m
-[0m[[0m[31merror[0m] [0m[0m                   ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/felipenipo/Projects/scala-cats-exercises/src/main/scala/printablelibrary/PrintableInstances.scala:5:9: object creation impossible, since method format in trait Printable of type [B >: String](value: B)String is not defined[0m
-[0m[[0m[31merror[0m] [0m[0m    new Printable[String] {[0m
-[0m[[0m[31merror[0m] [0m[0m        ^[0m
-[0m[[0m[31merror[0m] [0m[0m/Users/felipenipo/Projects/scala-cats-exercises/src/main/scala/printablelibrary/PrintableInstances.scala:10:9: object creation impossible, since method format in trait Printable of type [B >: Int](value: B)String is not defined[0m
-[0m[[0m[31merror[0m] [0m[0m    new Printable[Int] {[0m
-[0m[[0m[31merror[0m] [0m[0m        ^[0m
-[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/felipenipo/Projects/scala-cats-exercises/src/main/scala/functors/Program.scala:13:7: could not find implicit value for parameter functor: cats.Functor[functors.Branch][0m
+[0m[[0m[31merror[0m] [0m[0m  test(tree)[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
