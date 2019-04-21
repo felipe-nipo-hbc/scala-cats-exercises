@@ -46,6 +46,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/felipenipo/Projects/scala-cats-exercises/target/scala-2.12/classes/functors/Printable$$anon$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	monoids/SuperAdder$delayedInit$body.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/felipenipo/Projects/scala-cats-exercises/target/scala-2.12/classes/monoids/SuperAdder$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	monads/Writer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/felipenipo/Projects/scala-cats-exercises/target/scala-2.12/classes/monads/Writer.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	monoids/BooleanMonoids$$anon$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/felipenipo/Projects/scala-cats-exercises/target/scala-2.12/classes/monoids/BooleanMonoids$$anon$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	functors/CodecInstances$$anon$1.class[0m
@@ -116,6 +118,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/felipenipo/Projects/scala-cats-exercises/target/scala-2.12/classes/monads/StackSafety.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	functors/TreeFunctors.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/felipenipo/Projects/scala-cats-exercises/target/scala-2.12/classes/functors/TreeFunctors.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	monads/Writer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/felipenipo/Projects/scala-cats-exercises/target/scala-2.12/classes/monads/Writer$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	functors/Branch$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/felipenipo/Projects/scala-cats-exercises/target/scala-2.12/classes/functors/Branch$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	printablelibrary/Cat$$anon$1.class[0m
