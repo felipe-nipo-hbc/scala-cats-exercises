@@ -1,4 +1,2 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/felipenipo/Projects/scala-cats-exercises/src/main/scala/functors/Program.scala:13:7: could not find implicit value for parameter functor: cats.Functor[functors.Branch][0m
-[0m[[0m[31merror[0m] [0m[0m  test(tree)[0m
-[0m[[0m[31merror[0m] [0m[0m      ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[33mwarn[0m] [0m[0mthere was one feature warning; re-run with -feature for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

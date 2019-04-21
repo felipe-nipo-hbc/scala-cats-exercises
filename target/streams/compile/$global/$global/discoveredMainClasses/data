@@ -1,1 +1,1 @@
-["cattypeclass.Program","functors.Program","monoids.SuperAdder","printablelibrary.Program"]
+["cattypeclass.Program","functors.Program","monads.Program","monoids.SuperAdder","printablelibrary.Program"]
