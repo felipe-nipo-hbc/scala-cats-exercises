@@ -8,6 +8,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/felipenipo/Projects/scala-cats-exercises/target/scala-2.12/classes/functors/Leaf$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	printablelibrary/Cat.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/felipenipo/Projects/scala-cats-exercises/target/scala-2.12/classes/printablelibrary/Cat.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	monads/Db.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/felipenipo/Projects/scala-cats-exercises/target/scala-2.12/classes/monads/Db.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	functors/Branch.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/felipenipo/Projects/scala-cats-exercises/target/scala-2.12/classes/functors/Branch.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	printablelibrary/PrintableInstances$$anon$2.class[0m
@@ -98,6 +100,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/felipenipo/Projects/scala-cats-exercises/target/scala-2.12/classes/monoids/BooleanMonoids$$anon$4.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	functors/Program$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/felipenipo/Projects/scala-cats-exercises/target/scala-2.12/classes/functors/Program$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	monads/Db$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/felipenipo/Projects/scala-cats-exercises/target/scala-2.12/classes/monads/Db$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	monads/Program.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/felipenipo/Projects/scala-cats-exercises/target/scala-2.12/classes/monads/Program.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	monoids/Order.class[0m

@@ -12,15 +12,34 @@ object Program extends App {
   val foldResult = foldRight((1 to 100000).toList, 0L)(_ + _)
   println(foldResult.value)
 
-  val r = Await.result(Future.sequence(Vector(
-    Future(Writer.factorial(3)),
-    Future(Writer.factorial(3))
-  )), 5.seconds)
-  println(r)
+
+  /* WRITERS */
+//  val r = Await.result(Future.sequence(Vector(
+//    Future(Writer.factorial(3)),
+//    Future(Writer.factorial(3))
+//  )), 5.seconds)
+//  println(r)
 
   val r2 = for {
     a <- Writer.wFactorial(3)
     b <- Writer.wFactorial(3)
   } yield a + b
   r2.written.foreach(println(_))
+
+
+  /* READERS */
+  val users = Map(
+    1 -> "dade",
+    2 -> "kate",
+    3 -> "margo"
+  )
+  val passwords = Map(
+    "dade" -> "zerocool",
+    "kate" -> "acidburn",
+    "margo" -> "secret"
+  )
+
+  val db = Db(users, passwords)
+  println("checkLogin1: " + Db.checkLogin(1, "zerocool").run(db))
+  println("checkLogin2: " + Db.checkLogin(4, "davinci").run(db))
 }
