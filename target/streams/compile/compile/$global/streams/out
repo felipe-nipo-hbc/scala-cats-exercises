@@ -1,6 +1,5 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/felipenipo/Projects/scala-cats-exercises/src/main/scala/monads/Db.scala:29:39: missing argument list for method apply in object Reader[0m
-[0m[[0m[31merror[0m] [0m[0mUnapplied methods are only converted to functions when a function type is expected.[0m
-[0m[[0m[31merror[0m] [0m[0mYou can make this conversion explicit by writing `apply _` or `apply(_)` instead of `apply`.[0m
-[0m[[0m[31merror[0m] [0m[0m      isLogged <- userName.fold(Reader[Db, Boolean].pure)(checkPassword(_, password))[0m
-[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/felipenipo/Projects/scala-cats-exercises/src/main/scala/monads/Calculator.scala:34:60: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: Nil[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def evalAll(expr: List[String]): State[List[Int], Int] = expr match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

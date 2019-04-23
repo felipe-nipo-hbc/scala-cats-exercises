@@ -90,6 +90,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/felipenipo/Projects/scala-cats-exercises/target/scala-2.12/classes/functors/Tree.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	printablelibrary/Program.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/felipenipo/Projects/scala-cats-exercises/target/scala-2.12/classes/printablelibrary/Program.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	monads/Calculator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/felipenipo/Projects/scala-cats-exercises/target/scala-2.12/classes/monads/Calculator.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	functors/Program.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/felipenipo/Projects/scala-cats-exercises/target/scala-2.12/classes/functors/Program.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	printablelibrary/PrintableInstances$.class[0m
@@ -126,6 +128,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/felipenipo/Projects/scala-cats-exercises/target/scala-2.12/classes/monads/Writer$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	functors/Branch$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/felipenipo/Projects/scala-cats-exercises/target/scala-2.12/classes/functors/Branch$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	monads/Calculator$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/felipenipo/Projects/scala-cats-exercises/target/scala-2.12/classes/monads/Calculator$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	printablelibrary/Cat$$anon$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/felipenipo/Projects/scala-cats-exercises/target/scala-2.12/classes/printablelibrary/Cat$$anon$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	printablelibrary/Cat$.class[0m

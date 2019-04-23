@@ -42,4 +42,15 @@ object Program extends App {
   val db = Db(users, passwords)
   println("checkLogin1: " + Db.checkLogin(1, "zerocool").run(db))
   println("checkLogin2: " + Db.checkLogin(4, "davinci").run(db))
+
+
+  /* STATE */
+  println(Calculator.evalOne("42").runA(Nil).value)
+
+  val program = for {
+    _ <- Calculator.evalAll(List("1", "2", "+"))
+    _ <- Calculator.evalAll(List("3", "4", "+"))
+    ans <- Calculator.evalOne("*")
+  } yield ans
+  println(program.runA(Nil).value)
 }
