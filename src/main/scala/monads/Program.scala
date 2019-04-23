@@ -3,6 +3,10 @@ package monads
 import cats._
 import cats.implicits._
 import monads.StackSafety.foldRight
+import functors._
+
+import cats.syntax.functor._ // for map
+import cats.syntax.flatMap._ // for flatMap
 
 import scala.concurrent.{Await, Future}
 import scala.concurrent.ExecutionContext.Implicits.global
@@ -53,4 +57,12 @@ object Program extends App {
     ans <- Calculator.evalOne("*")
   } yield ans
   println(program.runA(Nil).value)
+
+
+  /* CUSTOM */
+  for {
+    a <- Branch(Leaf(100), Leaf(200))
+    b <- Branch(Leaf(a - 10), Leaf(a + 10))
+    c <- Branch(Leaf(b - 1), Leaf(b + 1))
+  } yield c
 }

@@ -1,5 +1,4 @@
-[0m[[0m[33mwarn[0m] [0m[0m/Users/felipenipo/Projects/scala-cats-exercises/src/main/scala/monads/Calculator.scala:34:60: match may not be exhaustive.[0m
-[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following input: Nil[0m
-[0m[[0m[33mwarn[0m] [0m[0m  def evalAll(expr: List[String]): State[List[Int], Int] = expr match {[0m
-[0m[[0m[33mwarn[0m] [0m[0m                                                           ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/felipenipo/Projects/scala-cats-exercises/src/main/scala/monads/Program.scala:64:16: value flatMap is not a member of functors.Branch[Int][0m
+[0m[[0m[31merror[0m] [0m[0m    a <- Branch(Leaf(100), Leaf(200))[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
